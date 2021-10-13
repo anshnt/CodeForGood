@@ -1,0 +1,97 @@
+.login .home_link {
+  border: none;
+  width: 100%;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.login {
+  background-image: url("https://cvm.ncsu.edu/wp-content/uploads/2019/06/iStock-913219882-data-banner-WEB-e1572964018497.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login_logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login_container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: black;
+}
+
+.login_container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.login_container > form > h5 {
+  margin-bottom: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.login_container > form > input {
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+
+.login_container > form > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.login_signInButton {
+  background: #b5d0f5;
+  border-radius: 15px;
+  width: 160px;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+
+.login_registerButton {
+  align-self: center;
+  border-radius: 15px;
+  width: 160px;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+}
+
+.welcome {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+input[type="text"]::placeholder {
+  text-align: center;
+}
+
+input[type="password"]::placeholder {
+  text-align: center;
+}
+
+input[type="text"] {
+  height: 100px;
+}
